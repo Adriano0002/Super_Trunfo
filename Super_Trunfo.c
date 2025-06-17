@@ -20,7 +20,7 @@ int main() {
 
     // Coleta de dados da carta 1
     printf("Digite os dados da carta 1:\n");
-    printf("Estado (A-H): ");
+    printf("Letras validas: A a H: ");
     scanf(" %c", &estado1);
 
     printf("Código (letra + dois números): ");
@@ -43,7 +43,7 @@ int main() {
 
     // Coleta de dados da carta 2
     printf("\nDigite os dados da carta 2:\n");
-    printf("Estado (A-H): ");
+    printf("Letras validas: A a H: ");
     scanf(" %c", &estado2);
 
     printf("Código (letra + dois números): ");

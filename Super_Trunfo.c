@@ -20,19 +20,19 @@ int main() {
 
     // Coleta de dados da carta 1
     printf("Digite os dados da carta 1:\n");
-    printf("Letras validas: A a H: ");
+    printf("Digite uma letra para o estado da carta 1 (Letras validas: A a H): ");
     scanf(" %c", &estado1);
 
-    printf("Código (letra + dois números): ");
+     printf("Digite o código da carta 1, sendo uma letra e dois números (01 a 04): ");
     scanf("%s", codigo_carta1);
 
-    printf("Nome da cidade: ");
+     printf("Digite o nome da cidade 1: ");
     scanf(" %[^\n]s", nome_cidade1);
 
-    printf("População: ");
+    printf("Digite a população da cidade 1: ");
     scanf("%lu", &populacao1);
 
-    printf("Área (km²): ");
+    printf("Digite a área da cidade 1 (em quilômetros quadrados): ");
     scanf("%f", &area1);
 
     printf("PIB (em bilhões de reais): ");
@@ -43,19 +43,19 @@ int main() {
 
     // Coleta de dados da carta 2
     printf("\nDigite os dados da carta 2:\n");
-    printf("Letras validas: A a H: ");
+    printf("Digite uma letra para o estado da carta 1 (Letras validas: A a H): ");
     scanf(" %c", &estado2);
 
-    printf("Código (letra + dois números): ");
+    printf("Digite o código da carta 1, sendo uma letra e dois números (01 a 04): ");
     scanf("%s", codigo_carta2);
 
-    printf("Nome da cidade: ");
+    printf("Digite o nome da cidade 1: ");
     scanf(" %[^\n]s", nome_cidade2);
 
-    printf("População: ");
+    printf("Digite a população da cidade 1: ");
     scanf("%lu", &populacao2);
 
-    printf("Área (km²): ");
+    printf("Digite a área da cidade 1 (em quilômetros quadrados): ");
     scanf("%f", &area2);
 
     printf("PIB (em bilhões de reais): ");
